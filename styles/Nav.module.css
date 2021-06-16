@@ -56,7 +56,7 @@
   src: '/currentLogo.png';
 }
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 993px) {
   .navmenu {
     position: fixed;
     left: -100%;
