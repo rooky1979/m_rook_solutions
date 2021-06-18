@@ -3,20 +3,44 @@
   padding-bottom: 20px;
   text-align: left;
   font-family: Helvetica;
-  font-size: 10vh;
+  font-weight: lighter;
+  font-size: 8vh;
+  border-color: #000000;
+  /*   box-shadow: black;
+  border-style: solid; */
 }
 .text {
   color: #333;
   font-family: Helvetica;
+  text-align: left;
+  line-height: 2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   border-color: #000000;
+  box-shadow: black;
+  border-style: solid; */
+  width: 70%;
+  padding-inline-start: 5vw;
 }
 .aboutDiv {
   justify-content: flex-end;
 }
 .aboutImageContainer {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   border-radius: 10px;
   border-style: solid;
-  border-color: #000000;
-  box-shadow: black;
+  /*   border-color: #000000;
+  box-shadow: black; */
+  z-index: -1;
+  padding-right: 10%;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  /*   border-color: #000000;
+  box-shadow: black; */
+  /* border-style: solid; */
 }
