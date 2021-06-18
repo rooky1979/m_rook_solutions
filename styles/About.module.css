@@ -1,0 +1,22 @@
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 10vh;
+}
+.text {
+  color: #333;
+  font-family: Helvetica;
+}
+.aboutDiv {
+  justify-content: flex-end;
+}
+.aboutImageContainer {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: black;
+}

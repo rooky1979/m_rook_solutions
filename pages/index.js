@@ -1,11 +1,20 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Layout.module.css';
+import layoutStyles from '../styles/Layout.module.css';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home page</h1>
+    /*     <div className={layoutStyles.container}> */
+    <div className={layoutStyles.bgWrap}>
+      <Image
+        src='/homepage.jpg'
+        alt='homepage picture'
+        layout='fill'
+        objectFit='cover'
+        objectPosition='center'
+      />
+      {/*         TEXTYTEXTYTEXTY
+      </div> */}
     </div>
   );
 }

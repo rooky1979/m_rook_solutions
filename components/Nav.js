@@ -16,8 +16,8 @@ const Nav = () => {
             <Image
               src='/currentLogo.png'
               alt='Rook Logo'
-              height={180}
-              width={360}
+              height={100}
+              width={200}
             />
           </a>
         </Link>
