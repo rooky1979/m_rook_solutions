@@ -71,6 +71,20 @@ const Nav = () => {
             </Link>
           </li>
           <li className={navStyles.navitem}>
+            <Link href='/technologies'>
+              <a
+                className={
+                  isOpen === false
+                    ? navStyles.navlink
+                    : navStyles.navlink + ' ' + navStyles.active
+                }
+                onClick={openMenu}
+              >
+                Technologies
+              </a>
+            </Link>
+          </li>
+          <li className={navStyles.navitem}>
             <Link href='/experience'>
               <a
                 className={

@@ -9,7 +9,7 @@ const about = () => {
         <span>
           <Image
             className={aboutStyles.aboutImageContainer}
-            src='/akroyd2.jpg'
+            src='/akroyd3.jpg'
             alt='me and akroyd'
             height={300}
             width={300}
@@ -34,9 +34,9 @@ const about = () => {
         <p>
           I recently completed a BSc Computer and Information Sciences degree
           with a GPA of 7 (A-). Although I have completed the degree, my
-          learning has only just started and I continued to learn with Next.js
-          and full-stack development with the MERN stack and will continue to do
-          so.
+          learning journey has only just begun and I continued to learn with
+          Next.js and full-stack development with the MERN stack and will
+          continue to do so.
         </p>
         <br />
         <p>

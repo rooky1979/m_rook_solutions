@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: rgb(143, 211, 129);
+  background-color: rgb(209, 232, 226);
 }
 
 .hamburger {
@@ -39,10 +39,10 @@
 }
 
 .navlink {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #475569;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 .navlink:hover {
@@ -57,7 +57,7 @@
   src: '/currentLogo.png';
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1200px) {
   .navmenu {
     position: fixed;
     left: -100%;
