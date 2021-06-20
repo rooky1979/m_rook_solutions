@@ -1,4 +1,4 @@
-export const projects = [
+export const project = [
   {
     id: '1',
     title: 'Current project.....',
@@ -13,7 +13,7 @@ export const projects = [
     date: 'June 2021 - July 2021',
     excerpt: "A website that is like a 'visual resume'....",
     languages: 'Next.js, CSS, React',
-    body: "Once I had completed university, after a week of relaxing, I couldn't wait to start learning again. I decided to create a website that showcased who I am and my projects and experiences. I looked at many different frameworks to use. I was tempted to stick with what I had been taught in university with HTML and PHP, but decided to challenge myself and learn something new. As it was going to be a static site, I looked at Gatsby and Next.js among others and decided to use Next.js as it seemed to be a popular choice among developers.\n\nAfter watching some tutorials and reading articles on Next.js, building the pages hasn't been as issue, but the styling and placement of containers etc, has been. Design I have discovered is a learning need that I have to improve on and gain more understanding of the CSS parameters.",
+    body: "Once I had completed university, after a week of relaxing, I couldn't wait to start learning again. I decided to create a website that showcased who I am and my projects and experiences. I looked at many different frameworks to use. I was tempted to stick with what I had been taught in university with HTML and PHP, but decided to challenge myself and learn something new. As it was going to be a static site, I looked at Gatsby and Next.js among others and decided to use Next.js as it seemed to be a popular choice among developers.\n\nAfter watching some tutorials and reading articles on Next.js, building the pages hasn't been as issue, but the styling and placement of containers etc, has been. Design I have discovered, is a learning need that I have to improve on and gain more understanding of the CSS parameters. Maybe start looking into CSS frameworks like Tailwind.",
   },
   {
     id: '3',
