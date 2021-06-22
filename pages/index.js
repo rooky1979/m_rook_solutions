@@ -14,8 +14,6 @@ export default function Home() {
         objectPosition='center'
         priority='true'
       />
-      {/*         TEXTYTEXTYTEXTY
-      </div> */}
     </div>
   );
 }
