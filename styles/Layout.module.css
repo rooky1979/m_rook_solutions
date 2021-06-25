@@ -112,7 +112,7 @@
     flex-direction: column;
   }
 }
-.landingImage {
+/* .landingImage {
   z-index: -1;
   background-image: url('/homepage.png');
   height: 100vh;
@@ -120,7 +120,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-}
+} */
 .landingText {
   position: relative;
   z-index: 1;
