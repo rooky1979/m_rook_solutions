@@ -6,7 +6,7 @@ import projectStyles from '../styles/Projects.module.css';
 const education = () => {
   return (
     <div className={layoutStyles.container}>
-      <h1 className={layoutStyles.h1}>Projects</h1>
+      <h1 className={layoutStyles.h1}>Education</h1>
       <div>
         {school.map((item) => (
           <div key={item.id}>

@@ -13,7 +13,7 @@ export const project = [
     id: '2',
     title: 'This website that you are reading.....',
     date: 'June 2021 - July 2021',
-    excerpt: "A website that is like a 'visual resume'....",
+    excerpt: "A 'visual resume'....",
     languages: 'Next.js, CSS, React',
     body: "Once I had completed university, after a week of relaxing, I couldn't wait to start learning again. I decided to create a website that showcased who I am and my projects and experiences. I looked at many different frameworks to use. I was tempted to stick with what I had been taught in university with HTML and PHP, but decided to challenge myself and learn something new. As it was going to be a static site, I looked at Gatsby and Next.js among others and decided to use Next.js as it seemed to be a popular choice among developers.\n\nAfter watching some tutorials and reading articles on Next.js, building the pages hasn't been as issue, but the styling and placement of containers etc, has been. Design I have discovered, is a learning need that I have to improve on and gain more understanding of the CSS parameters. Maybe start looking into CSS frameworks like Tailwind.",
     image: '/nextjslogo.png',
@@ -36,7 +36,7 @@ export const project = [
     excerpt: 'A basic website to book and assign taxis....',
     languages: 'HTML5, CSS, PHP, Javascript, SQL',
     body: "The assignment brief for this project in the second semester at year 2 at university for Web Development was to create a simple taxi booking website. It had to contain a booking page where a user could enter their details for pickup with certain fields requiring to be entered and sent a confirmation message. The admin page allowed for a search for bookings which displayed all the bookings for that search. The user was able to click on a button to assign the status of the taxi booking from 'unassigned' to 'assigned'\n\n The pages were built using HTML5 with some rudimental CSS styling, database queries with PHP and the server requests with Javascript.\n\nAnother fun project which was a great introduction into the fundamentals of web development. The hardest part for this assignment was the PHP and database queries. Missing a character in the query string proved difficult at times and problem solving it until I found an online query checker which was invaluable. This assignment recieved 90/100",
-    image: '/taxiSite.png',
+    image: '/taxiWebsite.png',
     link: 'https://github.com/rooky1979/simpleTaxiWebsite',
   },
   {
