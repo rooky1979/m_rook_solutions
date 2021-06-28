@@ -6,13 +6,17 @@ import projectStyles from '../styles/Projects.module.css';
 const projects = () => {
   return (
     <>
-      <h1 className='pl-24 mt-10 text-gray-800 font-extrathin text-6xl font-sans'>
-        Projects
-      </h1>
-      <div className='p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
+      <div className='max-w-full justify-items-stretch rounded'>
+        <img
+          className='lazy h-40 w-max object-cover object-center'
+          src='/projects.png'
+          alt='projects'
+        />
+      </div>
+      <div className='p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
         {project.map((item) => (
           <div className='p-10'>
-            <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+            <div className='max-w-sm rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-110'>
               <img
                 className='w-full'
                 className='lazy'

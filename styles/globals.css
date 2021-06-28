@@ -7,7 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.wrapper {
+  display: grid;
+  height: 10%;
+  place-items: center;
+}
 html,
 body,
 body * {
