@@ -8,3 +8,7 @@
   font-family: Helvetica;
   font-weight: 500;
 }
+.backgroundImage {
+  background-image: url('/projects.jpg');
+  background-color: black;
+}

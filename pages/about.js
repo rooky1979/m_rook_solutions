@@ -53,7 +53,8 @@ const about = () => {
           </p>
           <br />
           <p className='mt-3 leading-relaxed text-gray-800 font-sans'>
-            That's me in the picture on the right. Next to Dan Akroyd...
+            That's me in the picture on the right. Next to Dan Akroyd... ADD
+            CONTACT DETAILS
           </p>
         </div>
       </div>

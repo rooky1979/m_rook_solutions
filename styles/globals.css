@@ -44,3 +44,8 @@ button:focus {
 button:focus {
   outline: none;
 }
+.wrapper {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}

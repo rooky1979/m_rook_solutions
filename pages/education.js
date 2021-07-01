@@ -1,21 +1,151 @@
-import Link from 'next/link';
-import { school } from '../education';
-import layoutStyles from '../styles/Layout.module.css';
-import projectStyles from '../styles/Projects.module.css';
+import { year_1 } from '../education1';
+import { year_2 } from '../education2';
+import { year_3 } from '../education3';
 
 const education = () => {
   return (
-    <div className={layoutStyles.container}>
-      <h1 className={layoutStyles.h1}>Education</h1>
-      <div>
-        {school.map((item) => (
-          <div key={item.id}>
-            <h2 className={projectStyles.h2}>{item.title}</h2>
-            <h3 className={projectStyles.h3}>{item.date}</h3>
-            <div>{item.course}</div>
-            <div>{item.grade}</div>
+    <div className='bg-education pb-10'>
+      <div className='flex justify-center from-white via-blue-600 to-transparent bg-gradient-to-b w-full h-40'>
+        <span className=' mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
+          Education
+        </span>
+      </div>
+      <div className='flex justify-center '>
+        <div className='mt-10 flex p-3 w-1/2 items-center justify-evenly border-solid rounded border-black bg-gray-100 shadow-lg'>
+          <div className=' rounded'>
+            <img
+              className='h-40 rounded shadow-lg  '
+              src='/AUT.jpeg'
+              alt='AUT'
+            />
           </div>
-        ))}
+          <div className='p-3 w-1/2 text-justify '>
+            <p className='font-normal font-sans'>
+              <strong>School: </strong>Auckland University of Technology
+            </p>
+            <p className='font-normal font-sans'>
+              <strong>Course: </strong>Bachelor Computer and Information Science
+            </p>
+            <p className='font-normal font-sans'>
+              <strong>Major: </strong>Software Development
+            </p>
+            <p className='font-normal font-sans'>
+              <strong>Grade: </strong>GPA 7.2 (A-)
+            </p>
+            <p className='font-normal font-sans'>
+              <strong>Date: </strong>February 2018 - June 2021
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className='flex justify-center'>
+        <table className='shadow-xl bg-white w-1/2'>
+          <tr>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Year 1 Paper Name
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Level
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Grade
+            </th>
+          </tr>
+          {year_1.map((course) => (
+            <tr>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.paper}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.level}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.grade}
+              </td>
+            </tr>
+          ))}
+        </table>
+      </div>
+      <br />
+      <div className='flex justify-center'>
+        <table className='shadow-lg bg-white w-1/2'>
+          <tr>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Year 2 Paper Name
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Level
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Grade
+            </th>
+          </tr>
+          {year_2.map((course) => (
+            <tr>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.paper}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.level}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.grade}
+              </td>
+            </tr>
+          ))}
+        </table>
+      </div>
+      <br />
+      <div className='flex justify-center'>
+        <table className='shadow-lg bg-white w-1/2'>
+          <tr>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Year 3 Paper Name
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Level
+            </th>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Grade
+            </th>
+          </tr>
+          {year_3.map((course) => (
+            <tr>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.paper}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.level}
+              </td>
+              <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+                {course.grade}
+              </td>
+            </tr>
+          ))}
+        </table>
+      </div>
+      <br />
+      <div className='flex justify-center'>
+        <table className='shadow-lg bg-white w-1/2'>
+          <tr>
+            <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
+              Further Learning
+            </th>
+          </tr>
+          <tr>
+            <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+              Flutter & Dart - The Complete Flutter App Development Course with
+              Paulo Dichone
+            </td>
+          </tr>
+          <tr>
+            <td className=' px-8 py-4 text-center bg-gray-100 font-extralight font-sans'>
+              MERN Stack Front To Back: Full Stack React, Redux & Node.js with
+              Brad Traversy
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   );

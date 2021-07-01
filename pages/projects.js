@@ -1,18 +1,14 @@
-import Link from 'next/link';
 import { project } from '../projects';
-import layoutStyles from '../styles/Layout.module.css';
-import projectStyles from '../styles/Projects.module.css';
 
 const projects = () => {
   return (
-    <>
-      <div className='max-w-full justify-items-stretch rounded'>
-        <img
-          className='lazy h-40 w-max object-cover object-center'
-          src='/projects.png'
-          alt='projects'
-        />
+    <div>
+      <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
+        <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
+          Projects
+        </span>
       </div>
+
       <div className='p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
         {project.map((item) => (
           <div className='p-10'>
@@ -49,7 +45,7 @@ const projects = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

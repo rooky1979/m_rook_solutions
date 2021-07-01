@@ -11,7 +11,7 @@ export const project = [
   },
   {
     id: '2',
-    title: 'This website that you are reading.....',
+    title: 'This site that you are reading; website V1.0....',
     date: 'June 2021 - July 2021',
     excerpt: "A 'visual resume'....",
     languages: 'Next.js, CSS, React',
