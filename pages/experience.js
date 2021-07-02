@@ -39,6 +39,9 @@ const experience = () => {
             <li className='mt-1 font-sans font-light list-disc'>
               Great attention to detail.
             </li>
+            <li className='mt-1 font-sans font-light list-disc'>
+              Vast experience with writing business cases and proposals.
+            </li>
           </ul>
         </div>
       </div>
@@ -94,6 +97,18 @@ const experience = () => {
             </li>
             <li className='mt-1 font-sans font-light list-disc'>
               People person and friendly persona.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div className='flex justify-center'>
+        <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
+          <ul className='ml-6 list-disc p-5'>
+            <li className=' text-lg font-semibold font-sans'>Documentation</li>
+            <li className='mt-3 font-sans font-light list-disc'>
+              Vast experience in writing reports, manuals, standard operating
+              procedures, various plans, protocols and more.
             </li>
           </ul>
         </div>
