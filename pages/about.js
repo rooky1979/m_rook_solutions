@@ -5,7 +5,7 @@ import aboutStyles from '../styles/About.module.css';
 const about = () => {
   return (
     <>
-      <div className='flex mb-20'>
+      <div className='flex mb-20 bg-education bg-fixed'>
         <div className='hidden lg:block lg:w-1/2 lg:relative'>
           <img
             className='rounded absolute inset-0 lg:ml-5 lg:mr-10 lg:mt-20 h-auto w-full object-cover object-center'

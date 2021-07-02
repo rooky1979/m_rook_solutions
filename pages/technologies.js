@@ -2,7 +2,7 @@ import { tech } from '../technologies';
 
 const technologies = () => {
   return (
-    <div>
+    <div className='bg-education bg-fixed'>
       <div className='flex justify-center from-transparent via-blue-600 to-transparent bg-gradient-to-b w-full h-40  '>
         <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl text-'>
           Technology Competency

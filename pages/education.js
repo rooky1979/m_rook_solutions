@@ -4,7 +4,7 @@ import { year_3 } from '../education3';
 
 const education = () => {
   return (
-    <div className='bg-education pb-10'>
+    <div className='bg-education bg-fixed pb-10'>
       <div className='flex justify-center from-white via-blue-600 to-transparent bg-gradient-to-b w-full h-40'>
         <span className=' mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
           Education
@@ -20,19 +20,19 @@ const education = () => {
             />
           </div>
           <div className='p-3 w-1/2 text-justify '>
-            <p className='font-normal font-sans'>
+            <p className='font-light font-sans'>
               <strong>School: </strong>Auckland University of Technology
             </p>
-            <p className='font-normal font-sans'>
+            <p className='font-light font-sans'>
               <strong>Course: </strong>Bachelor Computer and Information Science
             </p>
-            <p className='font-normal font-sans'>
+            <p className='font-light font-sans'>
               <strong>Major: </strong>Software Development
             </p>
-            <p className='font-normal font-sans'>
+            <p className='font-light font-sans'>
               <strong>Grade: </strong>GPA 7.2 (A-)
             </p>
-            <p className='font-normal font-sans'>
+            <p className='font-light font-sans'>
               <strong>Date: </strong>February 2018 - June 2021
             </p>
           </div>

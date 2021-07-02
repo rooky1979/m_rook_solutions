@@ -2,7 +2,7 @@ import { project } from '../projects';
 
 const projects = () => {
   return (
-    <div>
+    <div className='bg-education bg-fixed'>
       <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
         <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
           Projects
@@ -12,9 +12,9 @@ const projects = () => {
       <div className='p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
         {project.map((item) => (
           <div className='p-10'>
-            <div className='max-w-sm rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-110'>
+            <div className='max-w-sm rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-110 bg-white'>
               <img
-                className='w-full'
+                className='w-full bg-white'
                 className='lazy'
                 src={item.image}
                 alt={item.image}

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        education: "url('/education.jpg')",
+        education: "url('/hex.jpg')",
         technologies: "url('/mac.jpg')",
       }),
     },
