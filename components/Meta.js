@@ -15,8 +15,9 @@ const Meta = ({ title, keywords, description }) => {
 
 Meta.defaultProps = {
   title: 'M Rook Solutions',
-  keywords: 'matthew, rook, programming, web development, coding, software',
-  description: 'get the latest news',
+  keywords:
+    'matthew, rook, programming, web development, coding, software, mrook, rook solutions',
+  description: 'Personal Project',
 };
 
 export default Meta;
