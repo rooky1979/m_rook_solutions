@@ -19,7 +19,7 @@ export const project = [
     body2:
       "After watching some tutorials and reading articles on Next.JS, building the pages hasn't been as issue, but the styling and placement of containers etc, has been. Design I have discovered, is a learning need that I have to improve on and gain more understanding of the CSS parameters.",
     body3:
-      'I decided to try a styling framework and after doing some research on SASS, Tailwind and Bootstrap, I decided on learning Tailwind. I have found that with Tailwind after taking some time to understand it that it feels like it has a lot more control',
+      'I decided to try a styling framework and after doing some research on SASS, Tailwind and Bootstrap, I decided on learning Tailwind. I have found that with Tailwind after taking some time to understand it that it feels like it has a lot more control. I also added simple transistions to the banner and pages using Framer Motion',
     image: '/nextjslogo.png',
     link: 'https://github.com/rooky1979/m_rook_solutions',
   },
