@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.6",
+    "framer-motion": "^4.1.17",
     "materialize-css": "^1.0.0-rc.2",
     "next": "10.2.3",
     "postcss-preset-env": "^6.7.0",

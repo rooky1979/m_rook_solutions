@@ -1,11 +1,32 @@
+//page that shows experience and transferable skills
+import { motion } from 'framer-motion';
+
 const experience = () => {
   return (
     <div className=' mb-20 bg-education bg-fixed'>
-      <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
-        <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
-          Experience and Transferable Skills
-        </span>
-      </div>
+      <motion.div
+        initial='hidden'
+        animate='visible'
+        variants={{
+          hidden: {
+            scale: 0.8,
+            opacity: 0,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: 0.4,
+            },
+          },
+        }}
+      >
+        <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
+          <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
+            Experience and Transferable Skills
+          </span>
+        </div>
+      </motion.div>
       <br />
       <div className='flex justify-center'>
         <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>

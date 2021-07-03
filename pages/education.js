@@ -1,15 +1,35 @@
+//page that shows the university transcript in tables
 import { year_1 } from '../education1';
 import { year_2 } from '../education2';
 import { year_3 } from '../education3';
+import { motion } from 'framer-motion';
 
 const education = () => {
   return (
     <div className='bg-education bg-fixed pb-10'>
-      <div className='flex justify-center from-white via-blue-600 to-transparent bg-gradient-to-b w-full h-40'>
-        <span className=' mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
-          Education
-        </span>
-      </div>
+      <motion.div
+        initial='hidden'
+        animate='visible'
+        variants={{
+          hidden: {
+            scale: 0.8,
+            opacity: 0,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: 0.4,
+            },
+          },
+        }}
+      >
+        <div className='flex justify-center from-white via-blue-600 to-transparent bg-gradient-to-b w-full h-40'>
+          <span className=' mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
+            Education
+          </span>
+        </div>
+      </motion.div>
       <div className='flex justify-center '>
         <div className='mt-10 flex p-3 w-1/2 items-center justify-evenly border-solid rounded border-black bg-gray-100 shadow-lg'>
           <div className=' rounded'>

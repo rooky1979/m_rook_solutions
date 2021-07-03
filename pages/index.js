@@ -1,6 +1,4 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import layoutStyles from '../styles/Layout.module.css';
+//home page
 
 export default function Home() {
   return (
@@ -21,17 +19,19 @@ export default function Home() {
             </span>
           </h1>
           <p className='mt-3 leading-relaxed text-gray-800 font-sans'>
-            After completing a degree, my software development journey is only
-            just starting. Now continuing to learn other languages and
-            technologies to make me a more well-rounded developer, I realise I
-            am merely on the contents page of the software development manual.
+            After completing my degree in June 2021, my software development
+            journey has only just begun. Now continuing to learn other languages
+            and technologies to make me a more well-rounded developer, I realise
+            I am merely on the contents page of the software development manual.
           </p>
           <p className='mt-3 leading relaxed text-gray-800 font-sans'>
             This website is the first of many personal projects to challenge
-            myself in learning and exposing myself to new skills, take me out of
-            my comfort zone and into deep waters. This is what you could call an
-            "interactive resume" showcasing past projects, technology
-            competency, previous experience and transferrable skills.
+            myself in learning and exposing myself to new skills. To take me out
+            of my comfort zone and into deep waters. To double down on areas of
+            learning needs that I have identified. This website is what you
+            could call an "interactive resume" showcasing past projects,
+            technology competency levels, previous experience and transferable
+            skills, built with Next.JS and Tailwind CSS.
           </p>
           <p className='mt-3 leading relaxed text-gray-800 font-sans'>
             This is webite V1.0 and I know it isn't perfect. But I bet

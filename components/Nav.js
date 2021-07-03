@@ -1,12 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
-import navStyles from '../styles/Nav.module.css';
-import layoutStyles from '../styles/Layout.module.css';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const openMenu = () => setIsOpen(!isOpen);
 
   return (
     <header className=' lg:flex lg:justify-between'>
@@ -21,6 +16,7 @@ const Nav = () => {
         </div>
         <div className='lg:hidden'>
           <button
+            // Hamburger menu
             type='button'
             onClick={() => setIsOpen(!isOpen)}
             className='block text-gray-800 hover:text-gray-400 focus:text-gray-400 outline-none'

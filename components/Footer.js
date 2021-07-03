@@ -3,8 +3,6 @@ import footerStyles from '../styles/Footer.module.css';
 import layoutStyles from '../styles/Layout.module.css';
 
 const Footer = () => {
-  const getYear = new Date().getFullYear;
-
   return (
     <footer className={footerStyles.footer}>
       <a

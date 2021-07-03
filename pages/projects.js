@@ -1,14 +1,33 @@
+//main project page. Clicking on read more goes to the ID from the projects.js JSON file
 import { project } from '../projects';
+import { motion } from 'framer-motion';
 
 const projects = () => {
   return (
     <div className='bg-education bg-fixed'>
-      <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
-        <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
-          Projects
-        </span>
-      </div>
-
+      <motion.div
+        initial='hidden'
+        animate='visible'
+        variants={{
+          hidden: {
+            scale: 0.8,
+            opacity: 0,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: 0.4,
+            },
+          },
+        }}
+      >
+        <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
+          <span className='mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
+            Projects
+          </span>
+        </div>
+      </motion.div>
       <div className='p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
         {project.map((item) => (
           <div className='p-10'>
