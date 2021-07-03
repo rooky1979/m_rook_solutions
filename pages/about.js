@@ -21,7 +21,7 @@ const about = () => {
           },
         }}
       >
-        <div className='flex justify-center from-white via-blue-600 to-transparent bg-gradient-to-b w-full h-40'>
+        <div className='flex justify-center from-white via-blue-600 to-white bg-gradient-to-b w-full h-40'>
           <span className=' mt-12 absolute text-white font-extralight font-sans text-center text-5xl'>
             About Me...
           </span>
