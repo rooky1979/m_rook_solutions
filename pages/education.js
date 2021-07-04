@@ -59,7 +59,7 @@ const education = () => {
         </div>
       </div>
       <br />
-      <div className='flex justify-center content-center'>
+      <div className='flex justify-center'>
         <table className='shadow-xl bg-white w-1/2'>
           <tr>
             <th className='bg-blue-300  text-center px-8 py-4 font-semibold font-sans'>
