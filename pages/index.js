@@ -19,10 +19,11 @@ export default function Home() {
             </span>
           </h1>
           <p className='mt-3 leading-relaxed text-gray-800 font-sans'>
-            After completing my degree in June 2021, my software development
-            journey has only just begun. Now continuing to learn other languages
-            and technologies to make me a more well-rounded developer, I realise
-            I am merely on the contents page of the software development manual.
+            After completing my bachelors degree in June 2021, my software
+            development journey has only just begun. Now continuing to learn
+            other languages and technologies to make me a more well-rounded
+            developer, I realise I am merely on the contents page of the
+            software development manual.
           </p>
           <p className='mt-3 leading relaxed text-gray-800 font-sans'>
             This website is the first of many personal projects to challenge
