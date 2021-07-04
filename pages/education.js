@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const education = () => {
   return (
     <div className='bg-education bg-fixed pb-10'>
-      <motion.div
+      <motion.div //framer-motion to animate the banner
         initial='hidden'
         animate='visible'
         variants={{
@@ -30,16 +30,16 @@ const education = () => {
           </span>
         </div>
       </motion.div>
-      {/* <div className='flex justify-center '>
-        <div className='mt-10 flex p-3 w-1/2 items-center justify-evenly border-solid rounded border-black bg-gray-100 shadow-lg'>
-          <div className=' rounded'>
+      <div class='mt-10 max-w-md mx-auto bg-gray-100 rounded-xl shadow-md overflow-hidden md:max-w-2xl'>
+        <div class='md:flex'>
+          <div class='md:flex-shrink-0'>
             <img
-              className='h-40 rounded shadow-lg  '
+              class='h-48 w-full object-cover md:h-full md:w-48'
               src='/AUT.jpeg'
               alt='AUT'
             />
           </div>
-          <div className='p-3 w-1/2 text-justify '>
+          <div class='p-8'>
             <p className='font-light font-sans'>
               <strong>School: </strong>Auckland University of Technology
             </p>
@@ -55,37 +55,6 @@ const education = () => {
             <p className='font-light font-sans'>
               <strong>Date: </strong>February 2018 - June 2021
             </p>
-          </div>
-        </div>
-      </div> */}
-      <div class='mt-10 w-full max-w-full md:flex justify-center'>
-        <div class='h-48 lg:h-auto lg:w-48 flex bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden '>
-          <img
-            className='h-48 w-auto rounded shadow-lg  '
-            src='/AUT.jpeg'
-            alt='AUT'
-          />
-        </div>
-        <div class=' bg-gray-100 rounded-b lg:rounded-b-none lg:rounded-r p-4  flex-col justify-center leading-normal'>
-          <div>
-            <div className='p-3 text-justify '>
-              <p className='font-light font-sans'>
-                <strong>School: </strong>Auckland University of Technology
-              </p>
-              <p className='font-light font-sans'>
-                <strong>Course: </strong>Bachelor Computer and Information
-                Science
-              </p>
-              <p className='font-light font-sans'>
-                <strong>Major: </strong>Software Development
-              </p>
-              <p className='font-light font-sans'>
-                <strong>Grade: </strong>GPA 7.2 (A-)
-              </p>
-              <p className='font-light font-sans'>
-                <strong>Date: </strong>February 2018 - June 2021
-              </p>
-            </div>
           </div>
         </div>
       </div>
