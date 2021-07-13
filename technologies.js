@@ -86,7 +86,7 @@ export const tech = [
   {
     id: '15',
     technology: 'MongoDB',
-    image: '/mongoDB.png',
+    image: '/MongoDB.png',
     level: 'Novice',
   },
   {
