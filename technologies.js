@@ -80,7 +80,7 @@ export const tech = [
   {
     id: '14',
     technology: 'Redux',
-    image: '/redux.jpeg',
+    image: '/redux.png',
     level: 'Novice',
   },
   {
