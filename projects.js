@@ -2,7 +2,7 @@ export const project = [
   {
     id: '1',
     title: 'Movie discussion forum V1.0....',
-    date: 'July 2021 - Present',
+    date: 'July 2021 - Sept 2021',
     excerpt: 'A movie forum with JWT authentication and more...',
     languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass',
     body: 'After completing a MERN course, I wanted to cement the full-stack concepts and create a basic movie discussion forum.',
