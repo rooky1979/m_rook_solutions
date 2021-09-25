@@ -4,7 +4,7 @@ export const project = [
     title: 'Movie discussion forum V1.0....',
     date: 'July 2021 - Sept 2021',
     excerpt: 'A movie forum with JWT authentication and more...',
-    languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass',
+    languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass, Heroku',
     body: 'After completing a MERN course, I wanted to cement the full-stack concepts and create a basic movie discussion forum.',
     body2:
       'The application uses JWT authentication when registering a new user and they can create a profile. When the user enters their favourite films, a request is made to the OMDB API and retrieves the movie poster, title, release year and director and displays it. The user can see the other members profiles and can post in the discussions page where each post can be commented on, liked/disliked and posts or comments deleted if the logged in user created the posts/comments.',
