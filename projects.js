@@ -9,7 +9,7 @@ export const project = [
     body2:
       'The application uses JWT authentication when registering a new user and they can create a profile. When the user enters their favourite films, a request is made to the OMDB API and retrieves the movie poster, title, release year and director and displays it. The user can see the other members profiles and can post in the discussions page where each post can be commented on, liked/disliked and posts or comments deleted if the logged in user created the posts/comments.',
     body3:
-      "The point of this project was not to create something that was full featured and secure, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user's favourite actors and directors by making a request to another API.",
+      "The point of this project was not to create something that was full featured, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user's favourite actors and directors by making a request to another API. The app is deployed on Heroku and can be found at https://gentle-falls-24207.herokuapp.com/",
     image: '/stalls.png',
     link: 'https://github.com/rooky1979/m_rook_solutions.git',
   },
