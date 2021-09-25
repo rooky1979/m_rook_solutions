@@ -1,12 +1,16 @@
 export const project = [
   {
     id: '1',
-    title: 'Current project.....',
+    title: 'Movie discussion forum V1.0....',
     date: 'July 2021 - Present',
     excerpt: 'A work in progress MERN stack movie discussion forum....',
-    languages: 'MongoDB, Express.js, Node.js, React',
-    body: "After completing a MERN stack Udemy course, I am currently designing and building the 'Stalls and Circles Movie Forum'. An application that will use JWT authentication with hashed password encryption. Users can sign up and create a profile and leave posts, like, unlike posts and comment. The point of V1.0 of the project is not designed to be full of features, but more about understanding the concepts of back end to front end communication.",
-    image: '/mern_logo.png',
+    languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass',
+    body: 'After completing a MERN course, I wanted to cement the full-stack concepts and create a basic movie discussion forum.',
+    body2:
+      'The application uses JWT authentication when registering a new user and they can create a profile. When the user enters their favourite films, a request is made to the OMDB API and retrieves the movie poster, title, release year and director and displays it. The user can see the other members profiles and can post in the discussions page where each post can be commented on, liked/disliked and posts or comments deleted if the logged in user created the posts/comments.',
+    body3:
+      "The point of this project was not to create something that was full featured and secure, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user's favourite actors and directors by making a request to another API.",
+    image: '/stalls.png',
     link: 'https://github.com/rooky1979/m_rook_solutions.git',
   },
   {
