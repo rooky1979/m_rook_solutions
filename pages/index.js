@@ -11,6 +11,7 @@ export default function Home() {
             alt='homepage logo'
           />
           <h1 className='mt-6 text-3xl font-light text-gray-800 leading-tight font-sans'>
+            A journey of a thousand miles
             <br className='' />
             <span className='text-3xl text-blue-700 font-normal font-sans'>
               {' '}
