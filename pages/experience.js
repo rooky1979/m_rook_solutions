@@ -51,6 +51,8 @@ const experience = () => {
             </li>
           </ul>
         </div>
+        </div>
+        <div className='flex justify-center'>
         <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
           <ul className='ml-6 list-disc p-5'>
             <li className=' text-lg font-semibold font-sans'>
