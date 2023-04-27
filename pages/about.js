@@ -50,7 +50,7 @@ const about = () => {
           </p>
           <br />
           <p className='mt-3 leading-relaxed text-gray-800 font-sans'>
-            I recently completed a BSc Computer and Information Sciences degree
+            In June 2021 I completed a BSc Computer and Information Sciences degree
             with a GPA of 7.2 (A-). Although I have completed the degree, my
             learning journey has only just begun and I have continued to learn,
             beginning with Next.JS/Tailwind CSS to create this website, and
