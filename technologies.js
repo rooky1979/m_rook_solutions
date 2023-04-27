@@ -167,4 +167,22 @@ export const tech = [
     image: '/network.jpg',
     level: 'Novice',
   },
+  {
+    id: '29',
+    technology: 'SAP',
+    image: '/SAP.jpg',
+    level: 'Intermediate',
+  },
+  {
+    id: '30',
+    technology: 'SAPUI5',
+    image: '/SAPUI%.jpg',
+    level: 'Novice/Intermediate',
+  },
+  {
+    id: '31',
+    technology: 'ABAP',
+    image: '/ABAP.jpg',
+    level: 'Intermediate',
+  },
 ];
