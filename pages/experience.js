@@ -32,6 +32,28 @@ const experience = () => {
         <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
           <ul className='ml-6 list-disc p-5'>
             <li className=' text-lg font-semibold font-sans'>
+              Current Employment: Deloitte SAP/Fiori Developer. Nov 2021 - Current.
+            </li>
+            <li className='mt-3 font-sans font-light list-disc'>
+              Responsible for creating/enhancing and modifying SAP products for clients in their build.
+            </li>
+            <li className='mt-1 font-sans font-light list-disc'>
+              Competant with the fundamentals and concepts of ABAP programming language.
+            </li>
+            <li className='mt-1 font-sans font-light list-disc'>
+              Competant with Fiori Elements and SAPUI5.
+            </li>
+            <li className='mt-1 font-sans font-light list-disc'>
+              Responsible for generating Functional and Technical specifications.
+            </li>
+            <li className='mt-1 font-sans font-light list-disc'>
+              Responsible for the finding and fixing of defects.
+            </li>
+          </ul>
+        </div>
+        <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
+          <ul className='ml-6 list-disc p-5'>
+            <li className=' text-lg font-semibold font-sans'>
               Project Management
             </li>
             <li className='mt-3 font-sans font-light list-disc'>
