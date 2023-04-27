@@ -28,9 +28,9 @@ const experience = () => {
         </div>
       </motion.div>
       <br />
-      <div className='flex justify-center'>
+        <div className='flex justify-center'>
         <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
-          <ul className='ml-6 list-disc p-5'>
+        <ul className='ml-6 list-disc p-5'>
             <li className=' text-lg font-semibold font-sans'>
               Current Employment: Deloitte SAP/Fiori Developer. Nov 2021 - Current.
             </li>
@@ -51,7 +51,8 @@ const experience = () => {
             </li>
           </ul>
         </div>
-        </div>
+      </div>
+      <br />
         <div className='flex justify-center'>
         <div className='border-black rounded shadow-md bg-gray-100 w-4/6'>
           <ul className='ml-6 list-disc p-5'>
