@@ -170,19 +170,19 @@ export const tech = [
   {
     id: '29',
     technology: 'SAP',
-    image: '/SAP.jpg',
+    image: '/SAP.png',
     level: 'Intermediate',
   },
   {
     id: '30',
     technology: 'SAPUI5',
-    image: '/SAPUI.jpg',
+    image: '/SAPUI.png',
     level: 'Novice/Intermediate',
   },
   {
     id: '31',
     technology: 'ABAP',
-    image: '/ABAP.jpg',
+    image: '/ABAP.jpeg',
     level: 'Intermediate',
   },
 ];
