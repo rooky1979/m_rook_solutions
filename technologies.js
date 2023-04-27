@@ -176,7 +176,7 @@ export const tech = [
   {
     id: '30',
     technology: 'SAPUI5',
-    image: '/SAPUI%.jpg',
+    image: '/SAPUI.jpg',
     level: 'Novice/Intermediate',
   },
   {
