@@ -33,8 +33,7 @@ const projects = () => {
           <div className='p-10'>
             <div className='max-w-sm rounded overflow-hidden shadow-lg transform transition duration-500 hover:scale-110 bg-white'>
               <img
-                className='w-full bg-white'
-                className='lazy'
+                className='w-full bg-white lazy'
                 src={item.image}
                 alt={item.image}
               />

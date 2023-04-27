@@ -34,8 +34,7 @@ const technologies = () => {
             <div className='bg-white ml-7 lg:w-48 flex-none bg-cover rounded text-center overflow-hidden shadow-lg p-2 transform transition duration-500 hover:scale-110'>
               <a>
                 <img
-                  className='w-full object-cover'
-                  className='lazy'
+                  className='w-full object-cover lazy'
                   src={item.image}
                   alt={item.image}
                 />
