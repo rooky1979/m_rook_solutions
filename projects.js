@@ -17,7 +17,7 @@ export const project = [
     id: '2',
     title: 'HIGH NOON GAMBLE Web Application VERSION 2....',
     date: 'February 2023 - March 2023',
-    excerpt: 'An overhaul of the ...',
+    excerpt: 'An overhaul of the HIGH NOON GAMBLE web app...',
     languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass, Heroku',
     body: 'True to our word, an updated overhaul of the HIGH NOON GAMBLE web application.',
     body2:
