@@ -1,6 +1,48 @@
 export const project = [
   {
     id: '1',
+    title: 'The Ink Lab....',
+    date: 'Current',
+    excerpt: 'A website for a tattoo artist...',
+    languages: 'Node.js, React, NextJS, CSS, Vercel',
+    body: 'Continuing to build on NextJS and React components, this is a website that will incorporate some new learned techniques.',
+    body2:
+      'A tattoo artist friend residing in Canada has allowed the use of his IP to allow a personal project to occur. This website incorporates a striking landing page with full-motion video of the artist over a loop showcasing a brief outline of his process.',
+    body3:
+      "This website will incorporate a showcasing of his portfolio, a contact form for him to receive email notifications, a blog that can be updated via Sanity.io, a call to Google Maps API for his location, SEO, amongst other features. This project is something to help and continue to build on JavaScript, NextJS and React component programming. Also, it was decided to use just native CSS to really get a handle on styling without any kind of framework. Take it back to basics if you will. As it is a current project, it isn't deployed anywhere to be viewed.",
+    image: '/inkLab.png',
+    link: 'https://github.com/rooky1979/inklab',
+  },
+  {
+    id: '2',
+    title: 'HIGH NOON GAMBLE Web Application VERSION 2....',
+    date: 'February 2023 - March 2023',
+    excerpt: 'An overhaul of the ...',
+    languages: 'MongoDB, Express.js, Node.js, React, Redux, Sass, Heroku',
+    body: 'True to our word, an updated overhaul of the HIGH NOON GAMBLE web application.',
+    body2:
+      'The web app was redesigned to incorporate a one-stop-shop dashboard for hosts/co-hosts to have easy access to anything they needed. Readings were split up into their own sections as were the required elements for the meeting format.',
+    body3:
+      "Searching and filtering were added to the tools and also the ability to randomise each tool if the person required a random reading from a tool and a \"GodShot\" tile was introduced that randomises a reading from any of the tools displaying the reading and the tool from whence it came from. The app is deployed on Vercel and can be found at https://highnoongamblev2.vercel.app/",
+    image: '/HNGV2.png',
+    link: 'https://github.com/rooky1979/highnoonNextJS',
+  },
+  {
+    id: '3',
+    title: 'HIGH NOON GAMBLE Web Application VERSION 1....',
+    date: 'October 2021 - November 2021',
+    excerpt: 'A web application with tools for a 12 step support group...',
+    languages: 'Node.js, React, NextJS, CSS, Vercel',
+    body: 'Friends in Las Vegas, NV approached M Rook Solutions for help with a web application for their hosts of the meeting to use.',
+    body2:
+      'Essentially, the group required to have an all-in-one place for hosts/co-hosts of an online 12-step meeting that contained all the readings, anything required to be posted in chat, and all the tools that are required for the meeting to run. When a person is asked to share, they pick a tool, and pick a number and they are asked to share on that reading or topic.',
+    body3:
+      "The group required this application fast during the pandemic due to lack of people having access to tools, so this web app was built fast so they had that access with the thought in mind to create a version 2.0 in order to tidy it up, include more features and overhaul the design. The app is deployed on Vercel and can be found at https://highnoongamble.vercel.app/",
+    image: '/HNG.png',
+    link: 'https://github.com/rooky1979/high_noon_gamble',
+  },
+  {
+    id: '4',
     title: 'Movie discussion forum V1.0....',
     date: 'July 2021 - Sept 2021',
     excerpt: 'A movie forum with JWT authentication and more...',
@@ -11,10 +53,10 @@ export const project = [
     body3:
       "The point of this project was not to create something that was full featured, but to understand the concepts of how full-stack development works. However for version 2.0, I will add the ability to upload profile pictures, create email verification to confirm valid email addresses and display the user's favourite actors and directors by making a request to another API. The app is deployed on Heroku and can be found at https://gentle-falls-24207.herokuapp.com/",
     image: '/stalls.png',
-    link: 'https://github.com/rooky1979/m_rook_solutions.git',
+    link: 'https://github.com/rooky1979/movie_forum',
   },
   {
-    id: '2',
+    id: '5',
     title: 'This site that you are reading; website V1.0....',
     date: 'June 2021 - July 2021',
     excerpt: "A 'visual resume'....",
@@ -28,7 +70,7 @@ export const project = [
     link: 'https://github.com/rooky1979/m_rook_solutions',
   },
   {
-    id: '3',
+    id: '6',
     title: 'Mobile application for the NZ Nutrition Foundation.....',
     date: 'July 2020 - June 2021',
     excerpt: 'A cooking application aimed at 14-17 year old people....',
@@ -44,7 +86,7 @@ export const project = [
     link: 'https://github.com/rooky1979/yfm',
   },
   {
-    id: '4',
+    id: '7',
     title: 'Taxi booking website....',
     date: 'April - May 2021',
     excerpt: 'A basic website to book and assign taxis....',
@@ -59,7 +101,7 @@ export const project = [
     link: 'https://github.com/rooky1979/simpleTaxiWebsite',
   },
   {
-    id: '5',
+    id: '8',
     title: 'Virtual pet',
     date: 'May - June 2019',
     excerpt: "A 90's inspired virtual pet created from scratch....",
@@ -73,7 +115,7 @@ export const project = [
     link: 'https://github.com/rooky1979/NetbeansProjects',
   },
   {
-    id: '6',
+    id: '9',
     title: 'Cinema booking system',
     date: 'September - October 2018',
     excerpt: 'A booking system to book seats at a cinema....',
