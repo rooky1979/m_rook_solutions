@@ -1,20 +1,46 @@
 export const project = [
   {
     id: '1',
-    title: 'The Ink Lab....',
-    date: 'Current',
-    excerpt: 'A website for a tattoo artist...',
-    languages: 'Node.js, React, NextJS, CSS, Vercel',
-    body: 'Continuing to build on NextJS and React components, this is a website that will incorporate some new learned techniques.',
+    title: 'M Rook Solutions V2.0',
+    date: 'November 2023 - Current',
+    excerpt: 'A revamp of this website',
+    languages: 'React components, NextJS, CSS, Vercel',
+    body: 'A revamped and cleaner version of this website incorporating new skills',
     body2:
-      'A tattoo artist friend residing in Canada has allowed the use of his IP to allow a personal project to occur. This website incorporates a striking landing page with full-motion video of the artist over a loop showcasing a brief outline of his process.',
-    body3:
-      "This website will incorporate a showcasing of his portfolio, a contact form for him to receive email notifications, a blog that can be updated via Sanity.io, a call to Google Maps API for his location, SEO, amongst other features. This project is something to help and continue to build on JavaScript, NextJS and React component programming. Also, it was decided to use just native CSS to really get a handle on styling without any kind of framework. Take it back to basics if you will. As it is a current project, it isn't deployed anywhere to be viewed.",
-    image: '/inkLab.png',
+      'Version 1.0 of this website was the first project I had done after graduating in June 2021. After some time of coding in my spare time and being involved in industry, it is time to revisit this and improve on what I thought was not a bad first effort but could be vastly cleaner in both code structure and overall look.',
+    image: '/currentLogo.png',
     link: 'https://github.com/rooky1979/inklab',
   },
   {
     id: '2',
+    title: 'Various SAPUI5 Fiori and UI5 Web Components projects...',
+    date: 'August 2023  - October 2023',
+    excerpt: 'Various learning projects with SAP Fiori languages and frameworks...',
+    languages: 'SAP BTP, Fiori, Fiori Elements, SAPUI5, UI5 Web Components for React',
+    body: 'Learning SAPUI5 and Fiori for SAP frontend',
+    body2:
+      'As ABAP language is my first stop at work, during my downtime, I have been upskilling in various SAP Fiori related small projects.',
+    body3:
+      "Creating small applications with the RAP approach (Restful Application Programming) and CAP (Cloud Application Programming) incorporating the SAP BTP cockpit. SAP Fiori utilises the MVC pattern so it has been good to refresh and create some of my own things to  see how flexible UI5 can be.",
+    image: '/ui5.png',
+    link: 'https://github.com/rooky1979/highnoongambleV2.0SAPUI5',
+  },
+  {
+    id: '3',
+    title: 'The Ink Lab....',
+    date: 'August 2023  - October 2023',
+    excerpt: 'A website for a tattoo artist...',
+    languages: 'React components, NextJS, CSS, Vercel',
+    body: 'Continuing to build on NextJS and React components, this is a website that incorporates some new learned techniques.',
+    body2:
+      'A tattoo artist friend residing in Canada has allowed the use of his IP to allow a personal project to occur. This website incorporates a striking landing page with full-motion video of the artist over a loop showcasing a brief outline of his process.',
+    body3:
+      "This website incorporates a showcasing of his portfolio and available art where embla was used to create an image carousel which was new to me. A contact form utilising Mailtrap was set up for users to send email enquiries and bookings. A subscriber page so that a user can subscribe to a mailing list using Mailchimp. A blog was created that can be updated via Sanity.io. This project is something to help and continue to build on JavaScript, NextJS and React component programming. Also, it was decided to use just native CSS to really get a handle on styling without any kind of framework. Take it back to basics if you will. The challenges were with the new features with using Mailchimp/Mailtrap, using Sanity.io and getting the image carousels to work. All new things to learn and enjoyable (if not frustrating at times!).",
+    image: '/inkLab.png',
+    link: 'https://github.com/rooky1979/inklab',
+  },
+  {
+    id: '4',
     title: 'HIGH NOON GAMBLE Web Application VERSION 2....',
     date: 'February 2023 - March 2023',
     excerpt: 'An overhaul of the HIGH NOON GAMBLE web app...',
@@ -28,7 +54,7 @@ export const project = [
     link: 'https://github.com/rooky1979/highnoonNextJS',
   },
   {
-    id: '3',
+    id: '5',
     title: 'HIGH NOON GAMBLE Web Application VERSION 1....',
     date: 'October 2021 - November 2021',
     excerpt: 'A web application with tools for a 12 step support group...',
@@ -42,7 +68,7 @@ export const project = [
     link: 'https://github.com/rooky1979/high_noon_gamble',
   },
   {
-    id: '4',
+    id: '6',
     title: 'Movie discussion forum V1.0....',
     date: 'July 2021 - Sept 2021',
     excerpt: 'A movie forum with JWT authentication and more...',
@@ -56,7 +82,7 @@ export const project = [
     link: 'https://github.com/rooky1979/movie_forum',
   },
   {
-    id: '5',
+    id: '7',
     title: 'This site that you are reading; website V1.0....',
     date: 'June 2021 - July 2021',
     excerpt: "A 'visual resume'....",
@@ -70,7 +96,7 @@ export const project = [
     link: 'https://github.com/rooky1979/m_rook_solutions',
   },
   {
-    id: '6',
+    id: '8',
     title: 'Mobile application for the NZ Nutrition Foundation.....',
     date: 'July 2020 - June 2021',
     excerpt: 'A cooking application aimed at 14-17 year old people....',
@@ -86,7 +112,7 @@ export const project = [
     link: 'https://github.com/rooky1979/yfm',
   },
   {
-    id: '7',
+    id: '9',
     title: 'Taxi booking website....',
     date: 'April - May 2021',
     excerpt: 'A basic website to book and assign taxis....',
@@ -101,7 +127,7 @@ export const project = [
     link: 'https://github.com/rooky1979/simpleTaxiWebsite',
   },
   {
-    id: '8',
+    id: '10',
     title: 'Virtual pet',
     date: 'May - June 2019',
     excerpt: "A 90's inspired virtual pet created from scratch....",
@@ -115,7 +141,7 @@ export const project = [
     link: 'https://github.com/rooky1979/NetbeansProjects',
   },
   {
-    id: '9',
+    id: '11',
     title: 'Cinema booking system',
     date: 'September - October 2018',
     excerpt: 'A booking system to book seats at a cinema....',
