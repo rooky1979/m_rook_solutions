@@ -5,7 +5,7 @@ export const project = [
     date: 'November 2023 - Current',
     excerpt: 'A revamp of this website',
     languages: 'React components, NextJS, CSS, Vercel',
-    body: 'A revamped and cleaner version of this website incorporating new skills',
+    body: 'A cleaner version of this website incorporating new skills learned',
     body2:
       'Version 1.0 of this website was the first project I had done after graduating in June 2021. After some time of coding in my spare time and being involved in industry, it is time to revisit this and improve on what I thought was not a bad first effort but could be vastly cleaner in both code structure and overall look.',
     image: '/currentLogo.png',
